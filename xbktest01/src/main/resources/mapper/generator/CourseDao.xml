@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.xbk.modules.generator.dao.CourseDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.xbk.modules.generator.entity.CourseEntity" id="courseMap">
+        <result property="courseid" column="courseId"/>
+        <result property="course" column="course"/>
+        <result property="iscore" column="isCore"/>
+        <result property="coursetypeid" column="courseTypeId"/>
+        <result property="coursetype2" column="courseType2"/>
+        <result property="coursetype" column="courseType"/>
+        <result property="teacher" column="teacher"/>
+        <result property="status" column="status"/>
+        <result property="openid" column="openId"/>
+        <result property="nickname" column="nickName"/>
+        <result property="createtime" column="createTime"/>
+        <result property="updatetime" column="updateTime"/>
+    </resultMap>
+
+
+</mapper>
